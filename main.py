@@ -8,7 +8,7 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 logger = logging.getLogger(__name__)
 
 DB_NAME = 'santa_bot.db'
-admin_id = YOUR_ADMIN_ID_HERE
+admin_id = #айдишник админа
 
 def create_db():
     conn = sqlite3.connect(DB_NAME)
